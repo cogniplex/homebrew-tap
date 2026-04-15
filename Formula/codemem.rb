@@ -1,24 +1,24 @@
 class Codemem < Formula
   desc "Standalone Rust memory engine for AI coding assistants"
   homepage "https://github.com/cogniplex/codemem"
-  version "0.17.0"
+  version "0.17.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/cogniplex/codemem/releases/download/v0.17.0/codemem-macos-arm64.tar.gz"
-      sha256 "2c59d2e5fdc60f0c9c8b32929296dac77b3281569f3a8c67bf8342c12523ea51"
+      url "https://github.com/cogniplex/codemem/releases/download/v0.17.1/codemem-macos-arm64.tar.gz"
+      sha256 "db12922df7e78c4c023196506e4dfee4f59c048915c0746f739eb3cdcf956379"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cogniplex/codemem/releases/download/v0.17.0/codemem-linux-arm64.tar.gz"
-      sha256 "5d0d46689cedb22277dd3aa2f4dd00585768107709d04a7ad0003d0d13c1d57f"
+      url "https://github.com/cogniplex/codemem/releases/download/v0.17.1/codemem-linux-arm64.tar.gz"
+      sha256 "90cd601c45e3a14cf8dad87a0001dcf47234543325d155617cf982f5fd23d8cd"
     end
     on_intel do
-      url "https://github.com/cogniplex/codemem/releases/download/v0.17.0/codemem-linux-amd64.tar.gz"
-      sha256 "106edf3df92b1e1e2928c6bb5d4d361555d022dfbf35d2def9b370c24634287c"
+      url "https://github.com/cogniplex/codemem/releases/download/v0.17.1/codemem-linux-amd64.tar.gz"
+      sha256 "c4259c286822486fd503fac64669cf587164bf9403b47d5eee767203a5898340"
     end
   end
 
